@@ -57,7 +57,7 @@ public class tgspbo {
 		       else {
 		          ps = "Belum terdaftar";
 		       
-		       System.out.println("inputkan ");
+		       System.out.println("inputkan nim ");
 		       System.out.println();
 		       
 	   }
@@ -78,7 +78,7 @@ public class tgspbo {
 		 
 				
 		  return stat;
-		  System.out.println("inputkan ");
+		  System.out.println("inputkan ipk");
 		  System.out.println();
 	      }
 	    
@@ -105,13 +105,13 @@ public class tgspbo {
 		 */
 		
 		return tagihan;
-		System.out.println("inputkan ");
+		System.out.println("inputkan nim");
 		System.out.println();
 	    }
 	    
 	    if (menu == 4) {
 	    System.out.println();
-	    System.out.println("input tgl");
+	    System.out.println("input sks");
 	    public int getMhsSemester() {
 		int smt = 0;
 		Calendar kld = Calendar.getInstance();
@@ -145,7 +145,7 @@ public class tgspbo {
 		 */
 		
 		return umur;	
-		System.out.println("inputkan ");
+		System.out.println("inputkan sks");
 		System.out.println();
 	    }
 
